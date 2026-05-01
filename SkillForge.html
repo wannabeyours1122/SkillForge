@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skill Forge Project</title>
+    <link rel="stylesheet" href="SkillForge.css">
+    <script src="SkillForge.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:regular,500,600,700,800,900,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <span class="top" id="logoSticker">SF</span>
+            <span class="top" id="Skill">SkillForge</span>
+        </div>
+        <div class="Features">
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Courses</a></li>
+            <li><a href="#">Reviews</a></li>
+            <button>Get Started</button>
+        </div>
+    </nav>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-left">
+                    <p class="light-blue">NEW COHORT STARTING SOON</p>
+                    <h1 style="font-family: 'Playfair Display',serif; color: #1F1F1F; line-height: 1.2; font-weight: 900; font-size: 40px;">Master <span style="font-family: inherit; color: #A39B6B; line-height: 1.2; font-weight: 900; font-size: 40px;">Full Stack</span> Development</h1>
+                    <p class="para">From frontend finesse to backend brilliance — learn by building real projects with world-class mentors in a supportive, career-focused environment.</p>
+                    <button class="primary-btn"><a href="#">Start Learning Free<i class="fa-solid fa-angle-right"></i></a></button>
+                    <button class="secondary-btn"><a href="#">Explore More Courses</a></button>
+                </div>
+                <div class="hero-right">
+                    <div class="code-card">
+                       <div class="code-window">
+                        <pre><code>
+                            <span class="keyword">const</span> forge = <span class="keyword">async</span> ()=>{
+                                <span class="keyword">const</span> skills = [
+                                    <span class="string">'React'</span>
+                                    <span class="string">'Node'</span>
+                                    <span class="string">'Python'</span>
+                                ];
+                                <span class="keyword">return</span> buildFuture(skills);
+                            };
+                        </code></pre>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="feature-section">
+            <div class="container-2">
+                <div class="feature-Area">
+                    <div class="main-headings">
+                        <p class="reason">Why SKILLForge</p>
+                        <h2 class="feature-section-head">Built For modern developers</h2>
+                        <p class="para-2">Everything you need to go from curious beginner to confident full-<span>stack engineer.</span></p>
+                    </div>
+                    <div class="card-section">
+                        <div class="cards">
+                            <i class="fa-solid fa-ruler"></i>
+                            <h3>Project-Based Learning</h3>
+                            <p>Build 20+ real-world projects that mirror industry workflows and fill your portfolio with substance.</p>
+                        </div>
+                        <div class="cards">
+                            <i class="fa-solid fa-user-graduate"></i>
+                            <h3>Expert Mentorship</h3>
+                            <p>Weekly 1:1 sessions with senior engineers from top tech companies who guide your growth.</p>
+                        </div>
+                        <div class="cards">
+                             <i class="fa-solid fa-bolt"></i>
+                            <h3>Modern Tech Stack</h3>
+                            <p>React 19, Next.js, Node, Python, PostgreSQL, Docker — stay ahead with 2025's most demanded tools.</p>
+                        </div>
+                        <div class="cards">
+                             <i class="fa-solid fa-rocket"></i>
+                            <h3>Career Accelerator</h3>
+                            <p>Resume reviews, mock interviews, and direct referrals to our 200+ hiring partner network.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="curriculum-section">
+            <div class="container-3">
+                <div class="main-headings">
+                    <p class="reason-2">THE PATHWAY</p>
+                    <h2 class="feature-section-head">What you'll learn</h2>
+                </div>
+            
+                <div class="curriculum-grid">
+                    <div class="curriculum-item">
+                        <div class="step-num">01</div>
+                        <div class="step-content">
+                            <h4>Frontend Mastery</h4>
+                            <p>HTML5, CSS3, Modern JS, and React 19 architecture.</p>
+                        </div>
+                    </div>
+                <div class="curriculum-item">
+                    <div class="step-num">02</div>
+                    <div class="step-content">
+                        <h4>Backend & Databases</h4>
+                        <p>Node.js, Express, PostgreSQL, and Prisma ORM.</p>
+                    </div>
+                </div>
+                <div class="curriculum-item">
+                    <div class="step-num">03</div>
+                    <div class="step-content">
+                        <h4>DevOps & Deployment</h4>
+                        <p>Docker, AWS, CI/CD pipelines, and Nginx setup.</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+    </main>
+
+    <footer style="text-align: center; padding: 40px; background: #1F1F1F; color: white; margin-top: 50px;">
+        <p>&copy; 2026 SkillForge. All rights reserved.</p>
+    </footer>
+</body>
+</html>
